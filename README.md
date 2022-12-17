@@ -25,7 +25,7 @@ To run the Chow-Liu tree encoder and decoder:
     - "chow-liu.png" - chow liu tree visualization
     - "<dataset_name>.compressed" - compressed binary file (the size of which is used to evaluate compression performance)
     
-    There are two additional files "data_encoder.csv" and "data_encoder.csv" generated in <dataset_dir_path> during testing of lossless compression as side artefacts (and can be removed).
+    There are two additional files "data_encoder.csv" and "data_decoder.csv" generated in <dataset_dir_path> during testing of lossless compression as side artefacts (and can be removed).
 
 
 # Stanford Compression Library
