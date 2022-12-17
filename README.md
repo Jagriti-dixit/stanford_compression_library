@@ -1,8 +1,16 @@
+
 # Tabular data compression using Chow-Liu trees
 The code implemented for compressing tabular data is present in: **compressors/tabular_encoder_chow_liu.py**
 
+## Related Links:
+Final Report: []
+Final Presentation: [https://drive.google.com/file/d/1yizFKRgNrnoe1O9nJBoWuEcdYOTmqCYM/view?usp=share_link]
+Link to datasets used in experiments: [https://drive.google.com/drive/folders/1P6eRvEq-ud0i9nBpzYL4ZSGN1iZs8qpi?usp=share_link]
 
-## Stanford Compression Library
+##
+
+
+# Stanford Compression Library
 The goal of the library is to help with research in the area of data compression. This is not meant to be fast or efficient implementation, but rather for educational purpose
 
 This library is currently being used for the course [EE274: Data Compression course, Fall 22](https://stanforddatacompressionclass.github.io/Fall22/) at Stanford University, to augment the lectures and for homeworks: 
