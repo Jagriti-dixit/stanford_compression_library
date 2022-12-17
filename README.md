@@ -3,9 +3,9 @@
 The code implemented for compressing tabular data is present in: **compressors/tabular_encoder_chow_liu.py**
 
 ## Related Links:
-Final Report: []
-Final Presentation: [https://drive.google.com/file/d/1yizFKRgNrnoe1O9nJBoWuEcdYOTmqCYM/view?usp=share_link]
-Link to datasets used in experiments: [https://drive.google.com/drive/folders/1P6eRvEq-ud0i9nBpzYL4ZSGN1iZs8qpi?usp=share_link]
+### Final Report: []
+### Final Presentation: [https://drive.google.com/file/d/1yizFKRgNrnoe1O9nJBoWuEcdYOTmqCYM/view?usp=share_link]
+### Link to datasets used in experiments: [https://drive.google.com/drive/folders/1P6eRvEq-ud0i9nBpzYL4ZSGN1iZs8qpi?usp=share_link]
 
 ## Setup Instructions (Reproducing Results):
 To run the Chow-Liu tree encoder and decoder:
