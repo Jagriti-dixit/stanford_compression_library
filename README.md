@@ -3,7 +3,7 @@
 The code implemented for compressing tabular data is present in: **compressors/tabular_encoder_chow_liu.py**
 
 ## Related Links:
-### Final Report: []()
+### Final Report: [report](https://drive.google.com/file/d/1gzosY72L8ESPPcTyEp9izxsYRYTqvdlP/view?usp=share_link)
 ### Final Presentation: [slides](https://drive.google.com/file/d/1yizFKRgNrnoe1O9nJBoWuEcdYOTmqCYM/view?usp=share_link)
 ### Link to datasets used in experiments: [datasets](https://drive.google.com/drive/folders/1P6eRvEq-ud0i9nBpzYL4ZSGN1iZs8qpi?usp=share_link)
 
