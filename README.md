@@ -7,7 +7,25 @@ Final Report: []
 Final Presentation: [https://drive.google.com/file/d/1yizFKRgNrnoe1O9nJBoWuEcdYOTmqCYM/view?usp=share_link]
 Link to datasets used in experiments: [https://drive.google.com/drive/folders/1P6eRvEq-ud0i9nBpzYL4ZSGN1iZs8qpi?usp=share_link]
 
-##
+## Setup Instructions (Reproducing Results):
+To run the Chow-Liu tree encoder and decoder:
+
+1. Download the dataset (from the link provided above)
+2. Follow the Getting Started instructions from the original README of the SCL repo (present below) to setup
+3. Run the command:
+    ```
+    python compressors/tabular_encoder_chow_liu.py <dataset_dir_path>/<dataset_name>
+    ```
+4. To inspect the results, navigate to the dataset directory:
+    ```
+    cd <dataset_dir_path>
+    ```
+    
+    This is where the generated Chow-Liu tree visualization, the compressed binary files are stored.
+    - "chow-liu.png" - chow liu tree visualization
+    - "<dataset_name>.compressed" - compressed binary file (the size of which is used to evaluate compression performance)
+    
+    There are two additional files "data_encoder.csv" and "data_encoder.csv" generated in <dataset_dir_path> during testing of lossless compression as side artefacts (and can be removed).
 
 
 # Stanford Compression Library
