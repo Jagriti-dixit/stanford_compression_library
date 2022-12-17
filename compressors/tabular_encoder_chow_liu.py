@@ -663,15 +663,19 @@ if __name__ == "__main__":
     # Even when testing with diff completely checks out between the two files,
     # The function reports that the dataframes are not equal
     # Hence using this method of testing.
-    if os.path.exists(os.path.abspath("data_encoder.csv")):
-        os.remove("data_encoder.csv")
-    data.to_csv("data_encoder.csv")
+    # Get the base directory of the dataset
+    base_path = os.path.dirname(out_filename)
+    enc_path = os.path.join(base_path, "data_encoder.csv")
+    dec_path = os.path.join(base_path, "data_decoder.csv")
+    if os.path.exists(enc_path):
+        os.remove(enc_path)
+    data.to_csv(enc_path)
 
-    if os.path.exists(os.path.abspath("data_decoder.csv")):
-        os.remove("data_decoder.csv")
-    data_decoder.to_csv("data_decoder.csv")
+    if os.path.exists(dec_path):
+        os.remove(dec_path)
+    data_decoder.to_csv(dec_path)
 
-    if(filecmp.cmp("data_encoder.csv", "data_decoder.csv")):
+    if(filecmp.cmp(enc_path, dec_path)):
         print("Yaaayyy! The data fed to the encoder and the data decoded exactly match")
     else:
         print("Oops! Error...The data fed to encoder and data decoded do not match")
